@@ -195,7 +195,7 @@
                 gainNode = audioCtx.createGain();
                 
                 // MULTIPLY VOLUME BY 250% (Increase 2.5 to 3.0 or 4.0 if you want it even louder!)
-                gainNode.gain.setValueAtTime(2.5, audioCtx.currentTime); 
+                gainNode.gain.setValueAtTime(4.0, audioCtx.currentTime); 
                 
                 source.connect(gainNode);
                 gainNode.connect(audioCtx.destination);
